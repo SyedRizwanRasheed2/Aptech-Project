@@ -28,7 +28,6 @@ public class confirmation extends AppCompatActivity {
                 Intent c1toc2 = new Intent(getApplicationContext(), confirm2.class);
                 c1toc2.putExtra("studentUsername", value);
                 startActivity(c1toc2);
-
             }
         });
 
