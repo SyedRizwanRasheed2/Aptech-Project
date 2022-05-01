@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="I agree to Term &amp; User Privacy Policy"
+                    android:textSize="15dp"
+                    android:layout_gravity="start"
+                    android:textColor="#A5A2A2"
+                    android:layout_marginTop="7dp"
+                    ></CheckBox>
+
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:text="Confirm"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button"
+                    android:id="@+id/nextpage"
+                    ></androidx.appcompat.widget.AppCompatButton>
+
+
+
+</LinearLayout>
